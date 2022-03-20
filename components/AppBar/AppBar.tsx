@@ -15,7 +15,10 @@ function AppBar() {
   return <>
     <StatusBar backgroundColor="#3700B3" barStyle="light-content" />
     <Box safeAreaTop bg="#6200ee" />
-    <HStack bg="white" justifyContent="space-between" width={"100%"} alignItems="center" height={70} w={"100%"}>
+    <HStack bg="white" justifyContent="space-between"
+      // width={{ base: 475, md: 1440 }}
+      width={"100%"}
+      alignItems="center" height={70} w={"100%"}>
       <HStack alignItems="center" paddingLeft={50}>
         <Hidden till={"md"}>
           <Image
@@ -83,9 +86,9 @@ function AppBar() {
 
 export default function Headers() {
   return <VStack alignContent={"center"} space={0} alignItems="center">
-      <AppBar />
-      <Landing />
-    </VStack>
+    <AppBar />
+    <Landing />
+  </VStack>
 }
 
 
