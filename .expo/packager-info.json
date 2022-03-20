@@ -1,0 +1,9 @@
+{
+  "devToolsPort": 19002,
+  "expoServerPort": 19000,
+  "packagerPort": 19000,
+  "expoServerNgrokUrl": "https://v6-hcq.anonymous.bank-landing.exp.direct",
+  "packagerNgrokUrl": "https://v6-hcq.anonymous.bank-landing.exp.direct",
+  "ngrokPid": 4864,
+  "webpackServerPort": 19006
+}
