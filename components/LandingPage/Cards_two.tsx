@@ -25,8 +25,8 @@ export function CardSectTwo() {
           space={2}
           marginLeft={{ md: 200 }}
           marginTop={10}
-          // justifyContent={{ base: "center", sm: "center" }}
-          // alignItems={{ base: "center", sm: "center" }}
+        // justifyContent={{ base: "center", sm: "center" }}
+        // alignItems={{ base: "center", sm: "center" }}
         >
           <Text fontSize={"4xl"} fontWeight={400}>
             latest Article
@@ -69,12 +69,13 @@ export function CardSectTwo() {
               size={300}
               resizeMode="contain"
             />
+            <Text>By Claire Robinson</Text>
             <Text fontSize={"2xl"} fontWeight={400}>
-              Online Banking
+              Receive money in any{'\n'}currency with no fees
             </Text>
-            <Text textAlign={"left"}>
-              our modern web and mobile application allow{"\n"}you to keep track
-              of your finances wherever you{"\n"}are in the world.
+            <Text textAlign={"left"}fontSize={"2xl"} color={'gray.200'}>
+              The world is getting{'\n'}smaller and we’re{'\n'}becoming more mobile. So{'\n'}
+              why should you be forced{'\n'}to only receive money in a{'\n'}single …
             </Text>
           </VStack>
           <VStack space={4}>
@@ -84,12 +85,13 @@ export function CardSectTwo() {
               size={300}
               resizeMode="contain"
             />
+            <Text> By Wilson Hutton</Text>
             <Text fontSize={"2xl"} fontWeight={400}>
-              Online Banking
+              Receive money in any{'\n'}currency with no fees
             </Text>
-            <Text textAlign={"left"}>
-              our modern web and mobile application allow{"\n"}you to keep track
-              of your finances wherever you{"\n"}are in the world.
+            <Text textAlign={"left"}fontSize={"2xl"}color={'gray.200'}>
+              The world is getting{'\n'}smaller and we’re{'\n'}becoming more mobile. So{'\n'}
+              why should you be forced{'\n'}to only receive money in a{'\n'}single …
             </Text>
           </VStack>
           <VStack space={4}>
@@ -99,12 +101,13 @@ export function CardSectTwo() {
               size={300}
               resizeMode="contain"
             />
+            <Text> By Wilson Hutton</Text>
             <Text fontSize={"2xl"} fontWeight={400}>
-              Online Banking
+              Take your Easybank{'\n'}card wherever you go
             </Text>
-            <Text textAlign={"left"}>
-              our modern web and mobile application allow{"\n"}you to keep track
-              of your finances wherever you{"\n"}are in the world.
+            <Text textAlign={"left"}fontSize={"2xl"}color={'gray.200'}>
+              We want you to enjoy your{'\n'}travels. This is why we don’t{'\n'}charge any
+              fees on{'\n'}purchases while you’re{'\n'}abroad. We’ll even show you …
             </Text>
           </VStack>
           <VStack space={4}>
@@ -114,12 +117,14 @@ export function CardSectTwo() {
               size={300}
               resizeMode="contain"
             />
+            <Text> By Claire Robinson</Text>
             <Text fontSize={"2xl"} fontWeight={400}>
-              Online Banking
+              Our invite-only Beta{'\n'}accounts are now live!
             </Text>
-            <Text textAlign={"left"}>
-              our modern web and mobile application allow{"\n"}you to keep track
-              of your finances wherever you{"\n"}are in the world.
+            <Text textAlign={"left"} fontSize={"2xl"}color={'gray.200'}>
+              After a lot of hard work by{'\n'}the whole team, we’re{'\n'}excited to
+              launch our{'\n'}closed beta. It’s easy to{'\n'}request an invite through{'\n'}the
+              site ...
             </Text>
           </VStack>
         </Stack>
@@ -147,7 +152,7 @@ export function CardSectTwo() {
             <Text fontSize={"2xl"} fontWeight={400}>
               Online Banking
             </Text>
-            <Text textAlign={"left"}>
+            <Text textAlign={"left"}color={'gray.200'}>
               our modern web and mobile application allow{"\n"}you to keep track
               of your finances wherever you{"\n"}are in the world.
             </Text>
@@ -166,7 +171,7 @@ export function CardSectTwo() {
             <Text fontSize={"2xl"} fontWeight={400}>
               Online Banking
             </Text>
-            <Text textAlign={"left"}>
+            <Text textAlign={"left"}color={'gray.200'}>
               our modern web and mobile application allow{"\n"}you to keep track
               of your finances wherever you{"\n"}are in the world.
             </Text>
@@ -185,7 +190,7 @@ export function CardSectTwo() {
             <Text fontSize={"2xl"} fontWeight={400}>
               Online Banking
             </Text>
-            <Text textAlign={"left"}>
+            <Text textAlign={"left"}color={'gray.200'}>
               our modern web and mobile application allow{"\n"}you to keep track
               of your finances wherever you{"\n"}are in the world.
             </Text>
@@ -204,7 +209,7 @@ export function CardSectTwo() {
             <Text fontSize={"2xl"} fontWeight={400}>
               Online Banking
             </Text>
-            <Text textAlign={"left"}>
+            <Text textAlign={"left"}color={'gray.200'}>
               our modern web and mobile application allow{"\n"}you to keep track
               of your finances wherever you{"\n"}are in the world.
             </Text>

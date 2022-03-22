@@ -43,8 +43,8 @@ function SectioOne() {
               marginLeft={200}
               space={4}
             >
-              <Text fontSize={"5xl"} fontWeight={400} fontFamily="mono">
-                Next Generation Banking
+              <Text fontSize={"4xl"} fontWeight={400} fontFamily="mono">
+                Next Generation
                 {"\n"}digital banking
               </Text>
               <Text alignItems="center" fontFamily="mono" fontSize={"lg"}>
