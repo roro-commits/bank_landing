@@ -11,6 +11,8 @@ import {
 } from "native-base";
 import React from "react";
 import { CardSectOne } from "./Cards";
+import { CardSectTwo } from "./Cards_two";
+
 function SectioOne() {
   return (
     <>
@@ -18,9 +20,11 @@ function SectioOne() {
         justifyContent={"space-around"}
         alignItems="center"
         direction={{ md: "row", sm: "column" }}
-        bg="white"
+        bg="#fafafa"
         space="0"
         // width={{ base: 475, md: 1440 }}
+        overflow={"hidden"}
+
         width={"100%"}
       >
         <Hidden till={"md"}>
@@ -28,7 +32,7 @@ function SectioOne() {
             alignItems="right"
             justifyContent={"left"}
             width={{ md: "50%", sm: "100%", base: "100%" }}
-            bg="white"
+            bg="#fafafa"
             // paddingLeft="64"
           >
             <VStack
@@ -41,7 +45,7 @@ function SectioOne() {
             >
               <Text fontSize={"5xl"} fontWeight={400} fontFamily="mono">
                 Next Generation Banking
-                {"\n"} digital banking
+                {"\n"}digital banking
               </Text>
               <Text alignItems="center" fontFamily="mono" fontSize={"lg"}>
                 Take your finicial life online. Your Easybank account {"\n"}{" "}
@@ -65,11 +69,12 @@ function SectioOne() {
           </Box>
         </Hidden>
         <Box
-          overflow={"hidden"}
+          // overflow={"hidden"}
+          // overflowWrap={"revert"}
           width={{ md: "50%", sm: "100%", base: "100%" }}
-          bg="white"
+          bg="#fafafa"
           p="12"
-          height={400}
+          height={{ md: 500 }}
         >
           <ZStack
             width={"100%"}
@@ -96,9 +101,10 @@ function SectioOne() {
 
             <Image
               source={require("../Resources/image-mockups.png")}
-              alt="Alternate Text"
-              size={{ md: 600, base: 400 }}
-              resizeMode="contain"
+              alt="phone mock photo"
+              size={{ md: 700, base: 400 }}
+              resizeMode="center"
+              marginTop={"1/4"}
             />
           </ZStack>
         </Box>
@@ -111,12 +117,17 @@ function SectioOne() {
           >
             <VStack justifyContent={"center"} alignItems="center" space={4}>
               <Text fontSize={"4xl"} fontWeight={400} fontFamily="mono">
-                Next Generation Banking
-                {"\n"} digital banking
+                Next Generation
+                {"\n"}digital banking
               </Text>
-              <Text alignItems="center" fontFamily="mono" fontSize={"lg"}>
-                Take your finicial life online. Your Easybank account {"\n"}{" "}
-                will be a one stop-shop for spending, saving, {"\n"} budgeting,
+              <Text
+                alignItems="center"
+                fontFamily="mono"
+                textAlign={"center"}
+                fontSize={"lg"}
+              >
+                Take your finicial life online. Your Easybank{"\n"}account will
+                be a one stop-shop for spending,{"\n"}saving, budgeting,
                 investing, and much more.
               </Text>
               <Button
@@ -139,8 +150,8 @@ function SectioOne() {
 function SectioTwo() {
   return (
     <Stack
-      // width={{ base: 475, md: 1440 }}
-      marginTop={10}
+    // width={{ base: 475, md: 1440 }}
+    // marginTop={10}
     >
       <Center>
         <CardSectOne />
@@ -151,9 +162,15 @@ function SectioTwo() {
 
 export default function () {
   return (
-    <VStack width={"100%"}>
+    // <VStack width={"100%"}>
+    //   <SectioOne />
+    //   <CardSectOne />
+    //   {/* <SectioTwo /> */}
+    // </VStack>
+    <>
       <SectioOne />
-      <SectioTwo />
-    </VStack>
+      <CardSectOne />
+      <CardSectTwo/>
+    </>
   );
 }
