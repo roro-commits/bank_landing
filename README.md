@@ -1,7 +1,7 @@
 
 
 # Landing page 
-## my at attempt at creating a landing page with nativebase
+## my  attempt at creating a  repsosive landing page with nativebase
 
 ```sh
 expo init my-app --template @native-base/expo-template-typescript
